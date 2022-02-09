@@ -1,0 +1,49 @@
+body{
+	background-color: white;
+	margin:0px;
+}
+
+.logo_container{
+	background-color: #272C37;
+	padding-top:25px;
+	padding-bottom: 25px; 
+}
+
+.logo{
+	height: 210px;
+	width: 740px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#img1{
+	height: 170px;
+	padding-bottom: 11px ;
+}
+#img2{
+	height: 200px;
+}
+
+.buttons{
+	text-align: center;
+	background-color:#272C37;
+	padding-bottom:18px;
+	padding-top:10px;
+	font-family:  'Barlow Semi Condensed';
+	font-size: 25px;
+	border-bottom: solid #787a7d 2px;
+}
+
+.buttons a,
+.buttons a:visited{
+	text-align: center;
+	color:white;
+	text-decoration: none;
+	margin-left:35px;
+	margin-right: 35px;
+}
+
+.buttons a:hover{
+	color: #adfb00;
+}
