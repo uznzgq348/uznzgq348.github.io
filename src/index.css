@@ -32,18 +32,78 @@ body{
 	padding-top:10px;
 	font-family:  'Barlow Semi Condensed';
 	font-size: 25px;
-	border-bottom: solid #787a7d 2px;
 }
 
 .buttons a,
 .buttons a:visited{
 	text-align: center;
-	color:white;
+	color: white;
 	text-decoration: none;
 	margin-left:35px;
 	margin-right: 35px;
+	transition: all 0.5s ease-out;
 }
 
 .buttons a:hover{
 	color: #adfb00;
+	transition: all 0.5s ease-in;
 }
+
+
+div.strip{
+	background-image: url("tile2.png");
+  background-color: #272c37;
+	background-repeat: repeat-x;
+	height: 10px;
+	z-index: 50;
+}
+
+div.strip #left_strip{
+	background-color: #adfb00;
+	width:10%;
+	float:left;
+	height: 10px;
+}
+
+div.strip #right_strip{
+	background-color: #adfb00;
+	width:10%;
+	float:right;
+	height: 10px;
+}
+
+div.dukkan{
+	background-color: black;
+	width:100%;
+	line-height: 0;
+}
+div.dukkan img{
+	width: 100%;
+	opacity:30%;
+}
+div.dukkan .strip{
+	height: 5px;
+	background-color: #13240a;
+}
+
+div.dukka4n p{
+	position:  absolute;
+	z-index: 1;
+	display: table-cell;
+	color:white;
+	font-family:  'Barlow Semi Condensed';
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+	margin-top: 250px;
+}
+
+div.section1 {
+	font-family: 'Barlow Semi Condensed';
+	font-size: 50px;
+	text-align: center;
+	color:#272c37;
+	padding-top: 100px;
+	padding-bottom:100px;
+}
+
