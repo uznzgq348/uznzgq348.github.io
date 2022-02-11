@@ -82,20 +82,8 @@ div.dukkan img{
 	opacity:30%;
 }
 div.dukkan .strip{
-	height: 5px;
-	background-color: #13240a;
-}
-
-div.dukka4n p{
-	position:  absolute;
-	z-index: 1;
-	display: table-cell;
-	color:white;
-	font-family:  'Barlow Semi Condensed';
-	font-size: 40px;
-	width: 100%;
-	text-align: center;
-	margin-top: 250px;
+	height: 0.1em;
+	background-color: #272c37;
 }
 
 div.section1 {
@@ -107,3 +95,36 @@ div.section1 {
 	padding-bottom:100px;
 }
 
+div.dukkan_container{
+	position: relative;
+}
+
+div.dukkan_container img{
+	
+}
+
+div.dukkan_container p{
+	position: absolute;
+    text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+	margin: 0;
+	width: 100%;
+	color:#ffffff80;
+	font-family: 'Barlow Semi Condensed';
+	font-size: 2.5em;
+	opacity: 0;
+	animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#c1{animation-delay: 1.5s;}
+#c2{animation-delay: 4s;}
+#c3{animation-delay: 7s;}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
