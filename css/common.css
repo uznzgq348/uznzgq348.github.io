@@ -21,10 +21,30 @@ h1,h2,h3,h4,h5,h6{
     opacity: .9;
 }
 
+.blog-cards{
+    margin-bottom: 0px!important;
+}
 
 /**for small screens*/
 @media only screen and (max-width: 600px) {
-  .hero-header {
-    height: 60vh;
-  }
+    .hero-header {
+        height: 60vh;
+    }
+    .storeview {
+        margin-top:40px;
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        background-color: #00c30094;
+        margin-bottom: 50px;
+    }
+    .storeview img{
+        width: 250px;
+        margin-top:-10px;
+    }
+    
+    .blog-cards {
+        padding-top: 38px;
+        background-color: #f2f2f2;
+    }
 }
