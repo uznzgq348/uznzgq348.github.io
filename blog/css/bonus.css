@@ -2,3 +2,16 @@
   padding-right: 20px;
   padding-left: 20px;
 }
+
+.navbar-dark{
+  background-color:#4D4D4D!important;
+}
+
+.navbar-brand img{
+  width: 200px;
+}
+
+nav.navbar{
+  padding-top:0px!important;
+  padding-bottom: 0px!important;
+}
