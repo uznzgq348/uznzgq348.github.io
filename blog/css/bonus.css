@@ -27,3 +27,10 @@ width: 20px;
 .social{
   text-align: center
 }
+
+/**for small screens*/
+@media only screen and (max-width: 650px) {
+  img.rounded-circle {
+    width: 90px!important;
+  }
+}
