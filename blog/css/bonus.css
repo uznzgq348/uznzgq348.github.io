@@ -15,3 +15,15 @@ nav.navbar{
   padding-top:0px!important;
   padding-bottom: 0px!important;
 }
+
+svg {
+width: 20px;
+  height: 25px;
+  margin-top: 5px;
+  color: #626262;
+  
+}
+
+.social{
+  text-align: center
+}
